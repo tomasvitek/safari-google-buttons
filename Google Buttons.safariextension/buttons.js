@@ -39,11 +39,11 @@
 	}
 
 	safari.application.addEventListener('command', function (e) {
-		if (e.command === 'open-gcal') {
-			openUrl('https://www.google.com/calendar');
+    if (e.command === 'open-cal') {
+      openUrl(safari.extension.settings.calendarUrl);
 		}
-		else if (e.command === 'open-gmail') {
-			openUrl('https://mail.google.com');
+		else if (e.command === 'open-mail') {
+			openUrl(safari.extension.settings.emailUrl);
 		}
 	});
 })();

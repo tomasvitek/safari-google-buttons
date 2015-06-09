@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Tomas Vitek</string>
 	<key>Builder Version</key>
-	<string>8536.30.1</string>
+	<string>10600.6.3</string>
 	<key>CFBundleDisplayName</key>
 	<string>Google Services Buttons</string>
 	<key>CFBundleIdentifier</key>
@@ -24,31 +24,35 @@
 		<array>
 			<dict>
 				<key>Command</key>
-				<string>open-gcal</string>
+				<string>open-cal</string>
 				<key>Identifier</key>
-				<string>gcal-button</string>
+				<string>cal-button</string>
 				<key>Image</key>
-				<string>icons/gcal.png</string>
+				<string>icons/cal.png</string>
+				<key>Include By Default</key>
+				<true/>
 				<key>Label</key>
-				<string>Google Calendar</string>
+				<string>Calendar</string>
 				<key>Palette Label</key>
-				<string>Open Google Calendar</string>
+				<string>Open Calendar</string>
 				<key>Tool Tip</key>
-				<string>Open Google Calendar</string>
+				<string>Open Calendar</string>
 			</dict>
 			<dict>
 				<key>Command</key>
-				<string>open-gmail</string>
+				<string>open-mail</string>
 				<key>Identifier</key>
-				<string>gmail-button</string>
+				<string>mail-button</string>
 				<key>Image</key>
-				<string>icons/gmail.png</string>
+				<string>icons/mail.png</string>
+				<key>Include By Default</key>
+				<true/>
 				<key>Label</key>
-				<string>Gmail</string>
+				<string>Email</string>
 				<key>Palette Label</key>
-				<string>Open Gmail</string>
+				<string>Open Email</string>
 				<key>Tool Tip</key>
-				<string>Open Gmail</string>
+				<string>Open Email</string>
 			</dict>
 		</array>
 	</dict>
@@ -59,6 +63,8 @@
 	</dict>
 	<key>Description</key>
 	<string>Small Safari extention which adds two buttons to your toolbar, which open Gmail and Google Calendar.</string>
+	<key>DeveloperIdentifier</key>
+	<string>VK67467L7H</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -72,7 +78,7 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>https://raw.github.com/tomikvitek/safari-google-buttons/master/manifest.plist</string>
+	<string>https://raw.github.com/tomasvitek/safari-google-buttons/master/manifest.plist</string>
 	<key>Website</key>
 	<string>http://tomasvitek.com</string>
 </dict>
