@@ -14,7 +14,7 @@ I tried using Chrome several times, but (for various reasons) I always came back
 
 ## Instalation
 
-Just download this file and open it ~ https://github.com/tomikvitek/safari-google-buttons/raw/master/Google%20Buttons.safariextz
+Just download this file and open it ~ https://github.com/tomasvitek/safari-google-buttons/raw/master/Google%20Buttons.safariextz
 
 ## Can you add Google Whatever service?
 
