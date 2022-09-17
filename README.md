@@ -1,5 +1,13 @@
 # Safari Google Buttons
 
+---
+
+> ‼️ **Deprecated**: 
+> 
+> This project is deprecated. Apple droppped any support for extensions not bundled with apps from the App Store with Safari 13 in September 2019.
+
+---
+
 Small Safari extention which adds two buttons to your toolbar, which open Gmail and Google Calendar. If you have the web app already opened, it will just switch to the tab with it, if not it will open a new tab and load the service.
 
 ## Why?
